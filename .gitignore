@@ -1,0 +1,27 @@
+# Ambiente
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados gerado em runtime
+*.db
+*.sqlite3
+
+# Output do pipeline
+data/output_users.json
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
